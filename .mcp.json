@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "godot-sprint": {
+      "command": "node",
+      "args": ["harness/src/server.js"],
+      "env": {
+        "SPRINT_STATE_DIR": ".sprint",
+        "GODOT_PROJECT_DIR": "game"
+      }
+    }
+  }
+}
